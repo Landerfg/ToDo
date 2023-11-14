@@ -14,10 +14,10 @@ class MailerSingleton {
 
         // Configura las opciones de SMTP
         $this->mail->isSMTP();
-        $this->mail->Host = 'smtp.educa.madrid.org';
+        $this->mail->Host = 'smtp.*******.***'; //Nombre del SMTP
         $this->mail->SMTPAuth = true;
-        $this->mail->Username = 'lfg436';
-        $this->mail->Password = 'TaWY!ccBA7';
+        $this->mail->Username = '******'; // Nombre de usuario del correo
+        $this->mail->Password = '********'; // contraseña
         $this->mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $this->mail->Port = 587;
     }
