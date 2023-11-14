@@ -1,2 +1,2 @@
 # ToDo
-Gestor de Tareas
+Gestor de Tareas que utiliza PHPMailer para enviar recordatorios
