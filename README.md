@@ -19,9 +19,9 @@ Este es un sencillo gestor de tareas desarrollado en PHP, creado como parte de m
 
 2. Configura tu entorno PHP y la base de datos.
 
-3. Importa el archivo SQL proporcionado en la carpeta `sql` para crear la estructura de la base de datos.
+3. Importa el archivo SQL proporcionado en el archivo `create.sql` para crear la estructura de la base de datos.
 
-4. Configura las credenciales de correo electrónico en `config.php` para habilitar la funcionalidad de recordatorios.
+4. Configura las credenciales de correo electrónico en `EmailConfig.php` para habilitar la funcionalidad de recordatorios.
 
 ## Uso:
 
